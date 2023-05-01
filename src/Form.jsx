@@ -24,7 +24,7 @@ addList(color)
         placeholder='#123456'
         onChange={(e) => setColor(e.target.value)}
       />
-      <button type='submit' className='btn'>submit</button>
+      <button type='submit' className='btn' style={{background:color}}>submit</button>
     </form>
     </div>
    
